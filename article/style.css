@@ -1,0 +1,24 @@
+mark {
+color: white;
+background: purple;
+}
+img{
+  width:500px;
+}
+.special {
+  color:purple;
+  background:white;
+  border: 5px solid purple;
+  width: 50%;
+/* height: 400px; */
+}
+
+.subtitle {
+  color:white;
+  background:purple
+
+}
+strong {
+  font-family: monospace;
+  font-size: 18px
+}
