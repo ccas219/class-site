@@ -3,10 +3,11 @@
     background:white;
     border: 5px solid black;
     width: 75%;
-    padding: 10px
+    padding: 5px
     text-align: center;
     margin: auto;
     font-family: 'Alata', sans-serif;
+    font-size: 35px;
 }
 
 .about {
