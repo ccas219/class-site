@@ -2,3 +2,10 @@ p{
 font-family: 'Bebas Neue', cursive;
 font-size: 35px;
 }
+.special {
+  color:orange;
+  background:white;
+  border: 5px solid orange;
+  width: 50%;
+  text-align: center;
+  
