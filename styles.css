@@ -2,10 +2,22 @@ p{
 font-family: 'Bebas Neue', cursive;
 font-size: 35px;
 }
-.center {
+.about {
   color:orange;
   background:white;
   border: 5px solid orange;
   width: 50%;
   text-align: center;
   margin: auto;
+}
+
+.main {
+    color:black;
+    background:white;
+    border: 5px solid black;
+    width: 75%;
+    padding: 10px
+    text-align: center;
+    margin: auto;
+    font-family: 'Alata', sans-serif;
+}
