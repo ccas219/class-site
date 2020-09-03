@@ -35,3 +35,15 @@
   font-size: 25px;
   padding: 10px;
 }
+
+.aheader {
+  color:orange;
+  background:white;
+  border: 5px solid orange;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  padding: 10px;
+}
