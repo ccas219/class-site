@@ -53,10 +53,10 @@
 }
 
 .fixed {
-  background: gold;
+  background: orange;
   padding: 20px;
   position: fixed;
-  bottom: 0px;
+  bottom: 20px;
   right: 20px;
   z-index: 0;
 }
