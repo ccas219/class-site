@@ -1,32 +1,32 @@
 .main {
-    color:black;
-    background:orange;
-    border: 5px solid black;
-    width: 75%;
-    padding: 5px;
-    text-align: center;
-    margin: auto;
-    font-family: 'Alata', sans-serif;
-    font-size: 35px;
-    text-align: center;
+  color: black;
+  background: orange;
+  border: 5px solid black;
+  width: 75%;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Alata', sans-serif;
+  font-size: 35px;
+  text-align: center;
 }
 
 .list {
-    color:black;
-    background:white;
-    border: 5px solid black;
-    width: 75%;
-    padding: 5px;
-    text-align: center;
-    margin: auto;
-    font-family: 'Alata', sans-serif;
-    font-size: 25px;
-    text-align: center;
+  color: black;
+  background: white;
+  border: 5px solid black;
+  width: 75%;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Alata', sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 .about {
-  color:orange;
-  background:white;
+  color: orange;
+  background: white;
   border: 5px solid orange;
   width: 50%;
   text-align: center;
@@ -37,8 +37,8 @@
 }
 
 .aheader {
-  color:orange;
-  background:white;
+  color: orange;
+  background: white;
   border: 5px solid orange;
   width: 50%;
   text-align: center;
@@ -46,4 +46,13 @@
   font-family: 'Bebas Neue', cursive;
   font-size: 45px;
   padding: 10px;
+}
+
+.fixed {
+  background: gold;
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  z-index: 0;
 }
