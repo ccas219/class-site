@@ -35,9 +35,11 @@ strong {
 }
 
 .fixed {
+  color: white;
   background: purple;
   padding: 20px;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 0;
+}
