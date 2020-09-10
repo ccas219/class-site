@@ -1,11 +1,13 @@
 
-mark {
+mark{
 color: white;
 background: purple;
 }
+
 img{
   width:500px;
 }
+
 .special {
   color:purple;
   background:white;
@@ -17,8 +19,15 @@ img{
 .subtitle {
   color:white;
   background:purple
-
+  padding: 20px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: fantasy;
+  
 }
+
 strong {
   font-family: monospace;
   font-size: 18px
