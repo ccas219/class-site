@@ -16,7 +16,7 @@ img{
 /* height: 400px; */
 }
 
-.subtitle {
+.header {
   color:white;
   background:purple;
   padding: 20px;
@@ -25,7 +25,8 @@ img{
   top: 0;
   z-index: 1;
   font-family: monospace;
-  align-content: center;
+  text-align: center;
+  margin: auto;
 
 }
 
