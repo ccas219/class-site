@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>David Vincent Baker</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,9 +11,10 @@
   <h1 class="header">David Vincent Baker - Tabletop Game Designer</h1>
   <img src="vincent-baker.jpg">
   <hr>
-  <h2 class="special">Prelude</h2>
+  <button type="button" class="collapsible">Prelude</button>
+  <div class="content">
     <p>David Vincent Baker is a designer of tabletop role playing games and the owner of Lumpley Games. His games include <em>Dogs in the Vineyard</em> , which won 2004 RPG Game of the year among other awards, and <em> Apocalypse World</em>, with co-designer Meguey Baker, which won Game of the Year, Best Support, and Most Innovative game at the 2010 Indie RPG Awards, and was 2011 RPG of the Year at both the Golden Geek Awards and Lucca Comics & Games. He maintains the journal and game archive, <a href="http://www.lumpley.com">anyway</a>.</p>
-  <p><em>Editor's note: This interview is part of <a href="https://thecreativeindependent.com/themes/#day-jobs">a series on day jobs.</a></em></p>
+  </div>
   <hr>
   <h2 class="special">Conversations</h2>
   <h3><span><em>On doing what you love full-time: An interview with tabletop game designer D. Vincent Baker. From a conversation with <a href="https://thecreativeindependent.com/people/brandon-stosuy/">Brandon Stosuy</a>.</em></span></h3><br>
@@ -141,5 +143,20 @@
   <a class="fixed" href="https://ccas219.github.io/class-site/">Back Home</a>
 
 </body>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </html>
