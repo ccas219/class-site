@@ -1,0 +1,29 @@
+.block {
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  width: 80vw;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 70px;
+  border: 15px orange;
+  position: relative;
+}
+
+.fixed {
+  color: black;
+  background: orange;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+}
+
+.text {
+  color: orange;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  text-align: center;
+}
