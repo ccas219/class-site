@@ -9,9 +9,9 @@ img{
 }
 
 .special {
-  color:purple;
+  color:rgb(82, 3, 131);
   background:white;
-  border: 5px solid purple;
+  border: 5px solid rgb(82, 3, 131);
   width: 50%;
 /* height: 400px; */
 }
@@ -38,7 +38,7 @@ strong {
 
 .fixed {
   color: white;
-  background: purple;
+  background: rgb(82, 3, 131);
   padding: 20px;
   position: fixed;
   bottom: 20px;
