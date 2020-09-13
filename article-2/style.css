@@ -1,7 +1,7 @@
 
 mark{
 color: white;
-background: purple;
+background: rgb(82, 3, 131);
 }
 
 img{
@@ -20,6 +20,7 @@ img{
   color:white;
   background:purple;
   padding: 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
   position: sticky;
   top: 0;
@@ -50,9 +51,9 @@ strong {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 85%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
 }
