@@ -27,3 +27,10 @@
   font-size: 30px;
   text-align: center;
 }
+
+.header{
+ text-align: center;
+ color: orange;
+ font-family: monospace;
+ font-size: 55px;
+}
