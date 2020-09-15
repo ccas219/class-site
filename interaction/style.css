@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(82, 168, 173);
+}
+
+.special {
+  color: rgb(203, 19, 19);
+  cursor: cell;
+}
+
+.special:hover {
+  color: white;
+}
+
+img {
+  max-width: 400px;
+}
+
+.hidden {
+  /* display: none; */
+  position: fixed;
+  z-index: 1;
+  opacity:0;
+  transition: opacity .5s ease;
+  pointer-events: none;
+}
+
+.special:hover .hidden {
+  opacity:1;
+
+}
+
+.img-a {
+  top: 20%;
+  left: 20%;
+}
+
+.img-b {
+  bottom: 20%;
+  right: 20%;
+}
+
+.object {
+  width: 200px;
+  height: 200px;
+  background: rgb(246, 151, 231);
+  border-radius: 50%;
+  position: fixed;
+  top: 45%;
+  left: 45%;
+  cursor: grab;
+  transition: transform 1s ease,
+              background 2s ease,
+              border-radius 1s ease;
+  transition-delay: 1s;
+}
+
+.object:hover {
+  transform: scale(2);
+  background: rgb(16, 4, 125);
+  border-radius: 0;
+}

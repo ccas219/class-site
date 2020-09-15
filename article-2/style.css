@@ -6,7 +6,7 @@ background: rgb(82, 3, 131);
 }
 
 img{
-  width:500px;
+  max-width:500px;
 }
 
 .special {
@@ -23,13 +23,11 @@ img{
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 1;
   font-family: monospace;
   text-align: center;
-  margin: auto;
-
 }
 
 strong {
@@ -52,7 +50,7 @@ strong {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 85%;
+  width: 100%;
   border: none;
   text-align: center;
   outline: none;
@@ -68,4 +66,18 @@ strong {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+.main-container{
+  display: flex;
+
+}
+.content-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.image-container{
+
 }
