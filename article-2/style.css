@@ -74,7 +74,7 @@ strong {
 .main-container{
   display: flex;
   margin-right: 10px;
-
+  background-color: black;
 }
 .content-container{
   display: flex;
