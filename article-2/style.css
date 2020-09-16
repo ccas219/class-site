@@ -2,7 +2,7 @@
 
 mark{
 color: white;
-background: rgb(82, 3, 131);
+background: rgb(167, 0, 0);
 }
 
 img{
@@ -61,6 +61,7 @@ strong {
   background-color: #f1f1f1;
   width:100%;
   margin-left: 10px;
+  text-align: center;
 
 }
 
