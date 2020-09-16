@@ -13,6 +13,10 @@ img{
   max-width:500px;
 }
 
+body{
+  background-color: black;
+}
+
 .header {
   color:white;
   background: rgb(84, 1, 1);
@@ -22,12 +26,14 @@ img{
   top: 0;
   z-index: 1;
   font-family: monospace;
+  font-size: 50px;
   text-align: center;
 }
 
 strong {
   font-family: monospace;
-  font-size: 18px
+  font-size: 20px;
+  color: rgb(0, 156, 109);
 }
 
 .fixed {
