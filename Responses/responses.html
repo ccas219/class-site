@@ -2,14 +2,51 @@
 <html>
   <head>
     <link rel="icon" type="image/png" href="assets/favicon.png">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Reading Responses</title>
   </head>
 
   <body>
-    <p class="about">To be added at another time.</p>
+    <h1 class="header">Reading Responses</h1>
+    <div class="main-container">
+
+      <div class="content-container">
+        <button type="button" class="collapsible">Response 1</button>
+        <div class="content">
+          <p>This is a website sketch based on the first reading</p>
+        </div>
+        <button type="button" class="collapsible">Response 2</button>
+        <div class="content">
+          <p>This is a website sketch based on the second reading</p>
+        </div>
+        <button type="button" class="collapsible">Response 3</button>
+        <div class="content">
+          <p>This is a website sketch based on the third reading</p>
+        </div>
+        <button type="button" class="collapsible">Response 4</button>
+        <div class="content">
+          <p>This is a website sketch based on the fourth reading</p>
+        </div>
+      </div>
+    </div>
     <a class="fixed" href="index.html">Back Home</a>
   </body>
 
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
 </html>
