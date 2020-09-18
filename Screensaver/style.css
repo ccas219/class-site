@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+.fixed {
+  color: black;
+  background: rgb(231, 83, 0);
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+}
