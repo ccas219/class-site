@@ -3,7 +3,7 @@
 }
 
 body {
-  background:
+  background: black;
 }
 
 .fixed {
@@ -14,6 +14,7 @@ body {
   bottom: 20px;
   right: 20px;
   z-index: 0;
+  animation: box 2s infinite alternate;
 }
 
 .circle1 {
@@ -21,9 +22,13 @@ body {
   height: 15vw;
   background: rgb(252, 110, 242);
   border-radius: 50%;
-  /* animation: pulse 1s infinite alternate; */
   z-index: 0;
   align-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: left 2s infinite alternate;
 }
 
 .circle2 {
@@ -34,5 +39,103 @@ body {
   /* animation: pulse 1s infinite alternate; */
   z-index: 1;
   align-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: right 2s infinite alternate;
+}
+
+.circle3 {
+  width: 15vw;
+  height: 15vw;
+  background: rgb(252, 110, 242);
+  border-radius: 50%;
+  z-index: 1;
+  align-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: top 2s infinite alternate;
+}
+
+.circle4 {
+  width: 15vw;
+  height: 15vw;
+  background: rgb(252, 110, 242);
+  border-radius: 50%;
+  z-index: 1;
+  align-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: bottom 2s infinite alternate;
+}
+
+@keyframes left {
+  0% {
+    background: rgb(252, 110, 242);
+    transform: translate(-50%,-50%);
+  }
+
+
+  100% {
+    transform: translate(-200%, -50%);
+    background: rgb(12, 210, 237);
+  }
+
+}
+
+@keyframes right {
+  0% {
+    background: rgb(252, 110, 242);
+    transform: translate(-50%,-50%);
+  }
+  100% {
+    transform: translate(100%, -50%);
+    background: rgb(12, 210, 237);
+  }
+
+}
+
+@keyframes top {
+  0% {
+    background: rgb(252, 110, 242);
+    transform: translate(-50%,-50%);
+  }
+
+
+  100% {
+    transform: translate(-50%, 100%);
+    background: rgb(12, 210, 237);
+  }
+
+}
+
+@keyframes bottom {
+  0% {
+    background: rgb(252, 110, 242);
+    transform: translate(-50%,-50%);
+  }
+
+
+  100% {
+    transform: translate(-50%, -200%);
+    background: rgb(12, 210, 237);
+  }
+
+}
+
+@keyframes box {
+  0% {
+    background: rgb(252, 110, 242);
+
+  }
+
+  100% {
+    background: rgb(12, 210, 237);
+  }
 
 }
