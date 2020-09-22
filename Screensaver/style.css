@@ -2,12 +2,37 @@
   box-sizing: border-box;
 }
 
+body {
+  background:
+}
+
 .fixed {
   color: black;
-  background: rgb(231, 83, 0);
+  background: rgb(12, 210, 237);
   padding: 20px;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 0;
+}
+
+.circle1 {
+  width: 15vw;
+  height: 15vw;
+  background: rgb(252, 110, 242);
+  border-radius: 50%;
+  /* animation: pulse 1s infinite alternate; */
+  z-index: 0;
+  align-content: center;
+}
+
+.circle2 {
+  width: 15vw;
+  height: 15vw;
+  background: rgb(252, 110, 242);
+  border-radius: 50%;
+  /* animation: pulse 1s infinite alternate; */
+  z-index: 1;
+  align-content: center;
+
 }
