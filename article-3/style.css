@@ -1,17 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
 
 mark {
 color: white;
 background: purple;
 }
+
+body {
+  background: rgb(221, 221, 221);
+}
+
 img{
   width:500px;
 }
+
+.info {
+  color: #6f00a3;
+  border: 10px #ffbf00;
+  border-style: ridge;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  width: 40%%;
+  padding: 20px;
+}
+
 .special {
-  color:purple;
-  background:white;
-  border: 5px solid purple;
+  color: #ffbf00;
+  background: black;
   width: 50%;
-/* height: 400px; */
+  text-align: center;
 }
 
 .subtitle {
@@ -20,14 +40,50 @@ img{
 
 }
 strong {
+  color: black;
   font-family: monospace;
-  font-size: 18px
+  font-size: 18px;
 }
+
+.content {
+  padding: 0 20px;
+  display: none;
+  overflow: hidden;
+  color: white;
+  width:100%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.main-container{
+    display: flex;
+    margin-right: 10px;
+  }
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
 
 .fixed {
   background: purple;
+  color: white;
   padding: 20px;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 0;
+}
+
+.image{
+    width: 305px;
+    height: 305px;
+    background: rgb(137, 143, 21);
+    background-image:url("vincent-baker.jpg");
+    background-size: cover;
+    background-position: center;
+    position:sticky;
+    top:0;
+  }
