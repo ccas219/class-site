@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.main{
+  height:100vh;
+  width:100vw;
+  justify-content: center;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+
+.pac{
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  background: yellow;
+  z-index: 0;
+  position: relative;
+}
+
+.triangle{
+  width: 0vw;
+    height: 0vw;
+    border-top: 8vw solid transparent;
+    border-right: 16vw solid black;
+    border-bottom: 8vw solid transparent;
+    /* transform: translate(70%, 23%); */
+    position: absolute;
+    right: -5vw;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 60vw;
+  padding: 10px 10px 0px 10px;
+
+}
+
+.pixel{
+  width: 2vw;
+  height: 2vw;
+  background: white;
+
+}
