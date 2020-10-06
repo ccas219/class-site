@@ -13,6 +13,17 @@ body{
   background: black;
   display: flex;
   align-items: center;
+  border-top: solid 15px blue;
+  border-bottom: solid 15px blue;
+}
+
+.neon{
+  height:50vh;
+  width:100vw;
+  border-top: solid 15px blue;
+  border-bottom: solid 15px blue;
+  z-index: 0;
+  display: flex;
 }
 
 .pac{
@@ -53,5 +64,15 @@ body{
   width: 2vw;
   height: 2vw;
   background: white;
+}
 
+.fixed {
+  color: yellow;
+  background: black;
+  border: solid 3px blue;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
 }
