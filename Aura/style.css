@@ -9,3 +9,14 @@ body{
   margin-left: 10px;
   text-align: center;
 }
+
+.fixed {
+  color: white;
+  background: black;
+  padding: 20px;
+  border: solid 5px white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+}
