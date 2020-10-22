@@ -14,12 +14,14 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+
 }
 
 .top-left {
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   background: rgb(228, 149, 141);
   display: flex;
   flex-direction: column;
@@ -27,8 +29,8 @@ body {
 }
 
 .top-right {
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   background: rgb(141, 228, 204);
   display: flex;
   flex-direction: column;
@@ -36,8 +38,8 @@ body {
 }
 
 .bottom-left {
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   background: rgb(228, 222, 141);
   display: flex;
   flex-direction: row;
@@ -45,8 +47,8 @@ body {
 }
 
 .bottom-right {
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   background: rgb(141, 168, 228);
   display: flex;
   flex-direction: column;
