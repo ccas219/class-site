@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  height:100%;
+  /* Disable Scroll */
+  overflow:hidden;
+  margin: 0;
+}
+
+
+a {
+  color: blue;
+  font-family: fantasy;
+  font-size: 12pt;
+}
+
+.step {
+  height: 100%;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.block{
+  width: 80%;
+  height:70%;
+  border: dashed;
+  border-width: thick;
+  border-spacing: 12px;
+}
+
+.text{
+  height: 30%;
+  width:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.sleep-block{
+  background-image: url("https://images.theconversation.com/files/305837/original/file-20191209-90562-nsnsun.jpg?ixlib=rb-1.1.0&rect=284%2C696%2C1934%2C965&q=45&auto=format&w=1356&h=668&fit=crop");
+  background-size: contain;
+}
