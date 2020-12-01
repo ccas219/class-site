@@ -90,3 +90,13 @@ a {
   background-image: url(wild-boar.jpg);
   background-size: contain;
 }
+
+.death-block{
+  background-image: url(death.jpg);
+  background-size: contain;
+}
+
+.treasure-block{
+  background-image: url(treasure.jpg);
+  background-size: contain;
+}
