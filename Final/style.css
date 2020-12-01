@@ -61,6 +61,36 @@ a {
   background-size: contain;
 }
 
+.boom-block{
+  background-image: url(boom.jpg);
+  background-size: contain;
+}
+
+.jack-block{
+  background-image: url(lumberjack.jpg);
+  background-size: contain;
+}
+
+.eyes-block{
+  background-image: url(eyes.jpg);
+  background-size: contain;
+}
+
+.axe-block{
+  background-image: url(axe.jpg);
+  background-size: contain;
+}
+
+.cut-block{
+  background-image: url(cut.jpg);
+  background-size: contain;
+}
+
+.hollow-block{
+  background-image: url(hollow.jpg);
+  background-size: contain;
+}
+
 .sign-block{
   background-image: url(.jpg);
   background-size: contain;
