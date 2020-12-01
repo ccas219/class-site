@@ -9,16 +9,18 @@ html, body {
   margin: 0;
 }
 
+h2 {
+}
 
 a {
-  color: blue;
-  font-family: fantasy;
-  font-size: 12pt;
+  color: white;
+  font-family: 'Texturina', serif;
+  font-size: 14pt;
 }
 
 .step {
   height: 100%;
-  background-color: coral;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +29,12 @@ a {
 }
 
 .block{
-  width: 80%;
+  width:60%;
   height:70%;
-  border: dashed;
+  border-style: groove;
   border-width: thick;
-  border-spacing: 12px;
+  border-color: white;
+  border-width: 20px;
 }
 
 .text{
@@ -43,9 +46,47 @@ a {
   text-align: center;
   flex-direction: column;
   position: relative;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
 }
 
 .sleep-block{
-  background-image: url("https://images.theconversation.com/files/305837/original/file-20191209-90562-nsnsun.jpg?ixlib=rb-1.1.0&rect=284%2C696%2C1934%2C965&q=45&auto=format&w=1356&h=668&fit=crop");
+  background-image: url(starter.jpg);
+  background-size: contain;
+}
+
+.choice-block{
+  background-image: url(diverging.jpg);
+  background-size: contain;
+}
+
+.sign-block{
+  background-image: url(.jpg);
+  background-size: contain;
+}
+
+.knife1-block{
+  background-image: url(knife-in-tree.jpg);
+  background-size: contain;
+}
+
+.knife2-block{
+  background-image: url(knife-in-tree2.jpg);
+  background-size: contain;
+}
+
+.knife3-block{
+  background-image: url(knife-in-tree3.jpg);
+  background-size: contain;
+}
+
+.knife4-block{
+  background-image: url(knife-in-tree4.jpg);
+  background-size: contain;
+}
+
+.boar-block{
+  background-image: url(wild-boar.jpg);
   background-size: contain;
 }

@@ -5,6 +5,9 @@
   <title>Quest</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,37 +26,46 @@
 
   <div id="lazy" class="step">
 
+    <div class="block sleep-block"></div>
+    <div class="text">
     <h1>Another day has gone by and your home is still in the woods. What do you do?</h1>
 
     <a href="#wakeup">Go outside and look around</a>
     <a href="#lazy">Go back to sleep... again</a>
   </div>
 
+  </div>
+
   <div id="wakeup" class="step">
 
-    <h1>You walk out of the front door to confront the forest.</h1>
-
-    <p>Upon leaving your house you are faced with two paths, one veering to the left and on veering to the right. What is your decision?</p>
+    <div class="block choice-block"></div>
+    <div class="text">
+    <h1>You walk out of the front door, where you are faced with two paths, one veering to the left and on veering to the right. What is your decision?</h1>
 
     <a href="#left">Take the left path</a>
     <a href="#right">Take the right path</a>
     <a href="#lazy">Go back to sleep</a>
   </div>
 
+  </div>
+
   <div id="right" class="step">
 
-    <h1>You decide to venture out to the right. You soon start to hear a loud thud in the distance. It sounds like someone banging on a drum, but it's inconsistent and off beat. As you move closer, you start to hear the russling of leaves. You look
-      up into the trees and notice there is one tree shaking vigorously.</h1>
+    <div class="block choice-block"></div>
+    <div class="text">
+    <h1>You decide to venture out to the right. You soon start to hear a loud thud in the distance. It sounds like someone banging on a drum, but it's inconsistent and off beat. As you move closer, you start to hear the russling of leaves. You look up into the trees and notice there is one tree shaking vigorously.</h1>
 
     <h2>The booming sound and lone swinging tree peak you interest, but you also realize this may be your last chance to turn back home. What do you want to do?</h2>
 
     <a href="#righton">Continue towards the shaking tree</a>
     <a href="#return">Turn back, better safe than sorry</a>
-
+  </div>
   </div>
 
   <div id="righton" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You continue down the path towards the banging and shaking tree, until you find yourself looking at large man hacking away at the tree with a large axe. The man hears your footsteps and turns toward you for a moment, only to go back to
       hacking at the tree.</h1>
 
@@ -62,22 +74,26 @@
     <a href="#skipman">Ignore the man, and continue walking</a>
     <a href="#talk">Approach the man</a>
     <a href="#stare">Stay where you are and see if he acknowledges you</a>
-
+  </div>
   </div>
 
   <div id="stare" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You stop to admire the man and his axe. You notice the axe is still sharp and he is about a third of the way through the trunk of his tree. You guess that he has been at the tree for at least 30 minutes.</h1>
 
     <h2>He doesn't seem to care that you're watching him since he has looked back over at you since arriving. What do you do now?</h2>
 
     <a href="#skipman">Ignore the man, and continue walking</a>
     <a href="#talk">Approach the man</a>
-
+  </div>
   </div>
 
   <div id="talk" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You walk up behind the man. As you approach, the man jams his axe in the tree and begins to stare into your eyes.</h1>
 
     <h2>What do you do?</h2>
@@ -85,23 +101,27 @@
     <a href="#offer">"Who are you? What is this place?""</a>
     <a href="#offer">"That's a pretty nice axe you have... where'd you get it?""</a>
     <a href="#skipman">Turn around and walk away, he seems scary</a>
-
+  </div>
   </div>
 
   <div id="offer" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You ask your question and the man grins but says nothing in return. He then looks back at his axe and unhinges it from the tree. He admires the blade before holding out in front of you.</h1>
 
     <h2>He seems to be offering it to you as a gift, but who knows what he will do once you take it. What do you do?</h2>
 
     <a href="#takeaxe">Take the axe from the man</a>
     <a href="#death5">Turn and continue walking</a>
-
+  </div>
   </div>
 
 
   <div id="skipman" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You don't see a reason to stop the man and you continue down the path. All of the sudden the man stops and you feel a thick hand grab your shoulder. You turn around and it is the man with a grin on his face. He then steps back and holds out
       his axe to you.</h1>
 
@@ -109,19 +129,23 @@
 
     <a href="#takeaxe">Take the axe from the man</a>
     <a href="#death5">Turn and continue walking</a>
-
+  </div>
   </div>
 
   <div id="death5" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You leave the man with the axe and start to walk away. All of the sudden you feel a sharp pain in your side. You look down and notice that the axe is imbedded in your hip, covered in blood. You then become light headed and pass out, left to bleed out and die with the man standing over you.</h1>
 
     <a href="#sleep">Reset</a>
-
+  </div>
   </div>
 
   <div id="takeaxe" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You take the axe from the man and wield it. Then man loses his grin and points back to the tree. Surprisingly, it is almost cut all the way through and could fall at any moment.</h1>
 
     <h2>Cutting the tree may get you the answers you need, but you also have an axe in your hand and a man who hasn't been very helpful... What do you do?</h2>
@@ -129,105 +153,125 @@
     <a href="#chop">Chop down the tree</a>
     <a href="#death5">Drop the axe and continue down the path</a>
     <a href="#death6">Swing the axe at the man</a>
-
+  </div>
   </div>
 
   <div id="death6" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>In a moment of aggression, you swing the axe towards the man. Unfortunately, the man saw thorugh you attack and caught the swing. He then yanks the axe from your hands and returns the favor by striking you in the ribs, killing you instantly.</h1>
 
     <a href="#sleep">Reset</a>
-
+  </div>
   </div>
 
   <div id="chop" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You walk up to the tree and take a few solid hacks at the trunk until the tree comes crashing down into the forest. You turn to see what the man thinks of your work, but he is gone. The stump of the tree is hollow and it seems there is something towards the bottom on the hole.</h1>
 
     <a href="https://ccas219.github.io/class-site/">Go through.</a>
-
+  </div>
   </div>
 
   <div id="return" class="step">
 
+    <div class="block choice-block"></div>
+    <div class="text">
     <h1>You return back to your home. Unfortnately, nothing has changed and you are faced with the same choice.</h1>
 
     <a href="#left">Take the left path</a>
     <a href="#right">Take the right path</a>
     <a href="#lazy">Go back to sleep</a>
-
+  </div>
   </div>
 
   <div id="left" class="step">
 
+    <div class="block sign-block"></div>
+    <div class="text">
     <h1>You start walking down the left path slowly. As you continue on you notice a sign aniled to a tree that reads, "Pecoribus ponit finem huius magicae quaest. Revertere ergo et vade in occidente."</h1>
 
     <h2>At this point either turn around or continue on this path, what do you do?</h2>
 
     <a href="#lefton">Continue on this path</a>
     <a href="#return">Turn back</a>
-
+  </div>
   </div>
 
   <div id="lefton" class="step">
 
+    <div class="block knife1-block"></div>
+    <div class="text">
     <h1>You continue to move down the path. As you walk, you notice something shiny sticking out of a tree trunk. Upon a closer look, it seems to be a knife</h1>
 
-    <h2>It's wedged pretty deep in the tree, but may come in handy later. What do you do?</h2>
+    <h2>It's wedged deep in the tree, but may come in handy later. What do you do?</h2>
 
     <a href="#pull1">Try to pull it free</a>
-
+  </div>
   </div>
 
   <div id="pull1" class="step">
 
+    <div class="block knife2-block"></div>
+    <div class="text">
     <h1>You give the knife a tug, but it doesn't budge.</h1>
 
     <a href="#pull2">Give it another tug</a>
     <a href="#noknife">Leave the knife, it has bad vibes</a>
-
+  </div>
   </div>
 
   <div id="pull2" class="step">
 
+    <div class="block knife3-block"></div>
+    <div class="text">
     <h1>You give it another pull, and it seems to have moved a little bit. Do you give it another pull?</h1>
 
     <a href="#pull3">Give it one last yank</a>
     <a href="#noknife">Leave the knife, it has bad vibes</a>
-
   </div>
+  </div>
+
 
   <div id="pull3" class="step">
 
+    <div class="block knife4-block"></div>
+    <div class="text">
     <h1>You give the knife a hardy yank and free it from the tree. You notice the handle looks relatively new and the blade is still very sharp. </h1>
     <h2>You have a weird feeling about the blade, but realize it may come in handy later on. Do you take it with you?</h2>
 
     <a href="#yesknife">Take the knife with you</a>
     <a href="#noknife">Leave the knife, it has bad vibes</a>
-
+  </div>
   </div>
 
   <div id="noknife" class="step">
 
+    <div class="block boar-block"></div>
+    <div class="text">
     <h1>The knife fails the vibe check and you decide to leave it behind. You stumble upon a cave filled with treasure, guarded by a wild hog with tusks the size of clevers. The hog glares at you and utter an angry snort.</h1>
     <h2>It's charging towards you! What do you do?</h2>
 
     <a href="#death1">Turn and run!</a>
     <a href="#death2">Stand your ground, get ready for a fight!</a>
     <a href="#death3">Charge the hog and aim for the throat!</a>
-
+  </div>
   </div>
 
   <div id="yesknife" class="step">
 
-    <h1>You take the knife with you and continue down the path. Soon, you stumble upon a cave filled with treasure, guarded by a wild hog with tusks the size of clevers. The hog glares at you and utter an angry
-      snort.</h1>
+    <div class="block boar-block"></div>
+    <div class="text">
+    <h1>You take the knife with you and continue down the path. Soon, you stumble upon a cave filled with treasure, guarded by a wild hog with tusks the size of clevers. The hog glares at you and utter an angry snort.</h1>
     <h2>It's charging towards you! What do you do?</h2>
 
     <a href="#death4">Turn and run!</a>
     <a href="#treasure">Stand your ground, get ready for a fight!</a>
     <a href="#treasure">Charge the hog and aim for the throat!</a>
-
+  </div>
   </div>
 
   <div id="death1" class="step">
@@ -264,8 +308,7 @@
 
   <div id="treasure" class="step">
 
-    <h1>You challenge the hog, wielding the knife you found earlier. The hog thrusts it's tusks towards you, but you're able to dodge the attack. While its' back is turned you swing your knife towards its head, making contact and killing it
-      instantly. You wipe the blood off your face and collect your treasure. Time to head home.</h1>
+    <h1>You challenge the hog, wielding the knife you found earlier. The hog thrusts it's tusks towards you, but you're able to dodge the attack. While its' back is turned you swing your knife towards its head, making contact and killing it instantly. You wipe the blood off your face and collect your treasure. Time to head home.</h1>
 
     <a href="https://ccas219.github.io/class-site/">Go home.</a>
 
